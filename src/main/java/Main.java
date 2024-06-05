@@ -4,12 +4,14 @@ public class Main {
     Scanner input = new Scanner(System.in);
 
     System.out.println("Welcome to the login page commander");
+
     System.out.println("Please enter your username");
     String userName = input.nextLine();
+
     System.out.println("Please enter your password");
     String userPassword = input.nextLine();
 
-    Login userLogin = new Login("","");
+    Login userLogin = new Login();
 
     userLogin.setUserName("Captain-Joe");
     userLogin.setUserPassword("j123456");

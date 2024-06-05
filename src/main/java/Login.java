@@ -3,11 +3,6 @@ public class Login {
   private String userPassword;
   private String userEmail;
 
-  public Login(String userName, String userPassword) {
-    this.userName = userName;
-    this.userPassword = userPassword;
-  }
-
   public String getUserName() {
     return userName;
   }
