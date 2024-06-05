@@ -25,13 +25,11 @@ public class Login {
     this.userPassword = userPassword;
   }
 
-  //setters and getters for the email
   public String getUserEmail(){
     return userEmail;
   }
-  public String setUserEmail(String email){
-    userEmail = email;
-    return userEmail;
+
+  public void setUserEmail(String userEmail){
+    this.userEmail = userEmail;
   }
-  
 }
