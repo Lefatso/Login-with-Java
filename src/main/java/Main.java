@@ -9,7 +9,7 @@ public class Main {
     System.out.println("Please enter your password");
     String userPassword = input.nextLine();
 
-    login userLogin = new login("","","");
+    Login userLogin = new Login("","","");
 
     userLogin.setSUserName("Captain-Joe");
     userLogin.setUserPassword("j123456");

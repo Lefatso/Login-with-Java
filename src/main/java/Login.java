@@ -1,14 +1,14 @@
-public class login{
+public class Login {
   private String userName;
   private String userPassword;
   private String userEmail;
 
-  public login(String name, String password,String email){
-    userName = name;
-    userPassword = password;
-    userEmail = email;
-    // settters and getter for the username
+  public Login(String userName, String userPassword, String userEmail){
+    this.userName = userName;
+    this.userPassword = userPassword;
+    this.userEmail = userEmail;
   }
+  
   public String getUserName(){
     return userName;
   }

@@ -5,9 +5,9 @@
    ![image](https://github.com/Lefatso/Login-with-Java/assets/106061860/29cc718f-4dae-45e5-8480-850caf326b88)
 
    - consist of the scanner object for allowing the user inputs
-   - login object for setting values (demo assume that the values are stored in the database, for demo purpose values are set objects)
-   - this will prompt the user for login details, and the details will be authenticated with the ones that we predefined within Login object.
-   - when the login is succefull (when the user details matchs with details that matches with the ones that are setmusing the object) the message "You have loged in successfully welcome commander" will be printed in the console.
+   - Login object for setting values (demo assume that the values are stored in the database, for demo purpose values are set objects)
+   - this will prompt the user for Login details, and the details will be authenticated with the ones that we predefined within Login object.
+   - when the Login is succefull (when the user details matchs with details that matches with the ones that are setmusing the object) the message "You have loged in successfully welcome commander" will be printed in the console.
      ![image](https://github.com/Lefatso/Login-with-Java/assets/106061860/b32ca24b-1a5b-43a0-aef9-74920f5f93ed)
 
    - when values are tot matching the message "Access Denied, please ensure that both your password and username are correct" will be display in the console until the user enter correct values.
