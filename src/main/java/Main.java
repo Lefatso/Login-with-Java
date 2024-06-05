@@ -16,12 +16,12 @@ public class Main {
     userLogin.setUserName("Captain-Joe");
     userLogin.setUserPassword("j123456");
 
-    if (userName.equals(userLogin.getUserName()) && userPassword.equals(userLogin.getUserPassword())){
-      System.out.println("You have loged in successfully welcome commander");
-    }else{
-      System.out.println("Access Denied, please ensure that both your password and username are correct");
-    }
-      
+    //The condition can be simplified.
+    if (userName.equals(userLogin.getUserName()) && userPassword.equals(userLogin.getUserPassword())) {
+      System.out.println("You have logged in successfully, Commander");
+    } else {
+      System.out.println("Access Denied, Incorrect credentials");
     }
   }
+}
   
