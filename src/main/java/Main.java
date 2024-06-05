@@ -11,7 +11,7 @@ public class Main {
 
     Login userLogin = new Login("","","");
 
-    userLogin.setSUserName("Captain-Joe");
+    userLogin.setUserName("Captain-Joe");
     userLogin.setUserPassword("j123456");
 
     if (userName.equals(userLogin.getUserName()) && userPassword.equals(userLogin.getUserPassword())){

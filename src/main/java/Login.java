@@ -8,16 +8,15 @@ public class Login {
     this.userPassword = userPassword;
     this.userEmail = userEmail;
   }
-  
+
   public String getUserName(){
     return userName;
   }
 
-  public String setSUserName(String name){
-    userName = name;
-    return userName;
+  public void setUserName(String userName){
+    this.userName = userName;
   }
-// the setter and getter for the password 
+
   public String getUserPassword(){
     return userPassword;
   }
