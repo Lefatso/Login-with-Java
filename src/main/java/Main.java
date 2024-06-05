@@ -4,22 +4,24 @@ public class Main {
     Scanner input = new Scanner(System.in);
 
     System.out.println("Welcome to the login page commander");
-    System.out.println("Please enter your username");
+
+    System.out.print("Please enter your username: ");
     String userName = input.nextLine();
-    System.out.println("Please enter your password");
+
+    System.out.print("Please enter your password: ");
     String userPassword = input.nextLine();
 
-    login userLogin = new login("","","");
+    Login userLogin = new Login();
 
-    userLogin.setSUserName("Captain-Joe");
+    userLogin.setUserName("Captain-Joe");
     userLogin.setUserPassword("j123456");
 
-    if (userName.equals(userLogin.getUserName()) && userPassword.equals(userLogin.getUserPassword())){
-      System.out.println("You have loged in successfully welcome commander");
-    }else{
-      System.out.println("Access Denied, please ensure that both your password and username are correct");
-    }
-      
+    //The condition can be simplified.
+    if (userName.equals(userLogin.getUserName()) && userPassword.equals(userLogin.getUserPassword())) {
+      System.out.println("You have logged in successfully, Commander!");
+    } else {
+      System.out.println("Access Denied, Incorrect credentials.");
     }
   }
+}
   
