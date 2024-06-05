@@ -21,9 +21,8 @@ public class Login {
     return userPassword;
   }
 
-  public String setUserPassword(String password){
-    userPassword = password;
-    return userPassword;
+  public void setUserPassword(String userPassword){
+    this.userPassword = userPassword;
   }
 
   //setters and getters for the email
