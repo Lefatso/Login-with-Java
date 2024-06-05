@@ -3,33 +3,32 @@ public class Login {
   private String userPassword;
   private String userEmail;
 
-  public Login(String userName, String userPassword, String userEmail){
+  public Login(String userName, String userPassword) {
     this.userName = userName;
     this.userPassword = userPassword;
-    this.userEmail = userEmail;
   }
 
-  public String getUserName(){
+  public String getUserName() {
     return userName;
   }
 
-  public void setUserName(String userName){
+  public void setUserName(String userName) {
     this.userName = userName;
   }
 
-  public String getUserPassword(){
+  public String getUserPassword() {
     return userPassword;
   }
 
-  public void setUserPassword(String userPassword){
+  public void setUserPassword(String userPassword) {
     this.userPassword = userPassword;
   }
 
-  public String getUserEmail(){
+  public String getUserEmail() {
     return userEmail;
   }
 
-  public void setUserEmail(String userEmail){
+  public void setUserEmail(String userEmail) {
     this.userEmail = userEmail;
   }
 }
